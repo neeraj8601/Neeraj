@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neeraj Kumar - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        .resume-container {
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+            letter-spacing: 2px;
+        }
+        .header .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            font-size: 1.1em;
+            flex-wrap: wrap;
+        }
+        .section {
+            padding: 30px;
+            border-bottom: 2px solid #eee;
+        }
+        .section:last-child {
+            border-bottom: none;
+        }
+        .section h2 {
+            color: #1e3c72;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #2a5298;
+            display: inline-block;
+        }
+        .summary {
+            background: #e8f4f8;
+            padding: 25px;
+            border-left: 5px solid #1e3c72;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            line-height: 1.7;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #1e3c72;
+            width: 25%;
+        }
+        .skills-table th {
+            width: 20%;
+        }
+        .projects-table {
+            background: #f8f9ff;
+        }
+        .projects-table th {
+            background: #e3f2fd;
+        }
+        .experience-item, .education-item {
+            margin-bottom: 20px;
+        }
+        .job-title {
+            font-size: 1.3em;
+            color: #1e3c72;
+            font-weight: bold;
+        }
+        .company {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .date {
+            color: #888;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            color: #d32f2f;
+            font-weight: bold;
+        }
+        @media print {
+            body { background: white; }
+            .resume-container { box-shadow: none; }
+        }
+        @media (max-width: 768px) {
+            .contact-info { flex-direction: column; gap: 10px; }
+            th, td { padding: 10px; font-size: 0.9em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- HEADER -->
+        <div class="header">
+            <h1>NEERAJ KUMAR</h1>
+            <div class="subtitle">BCA Student | Java & Python Developer</div>
+            <div class="contact-info">
+                <span>📍 Lucknow, India</span>
+                <span>📞 +91 8601351042</span>
+                <span>📧 neerajkumar860135@gmail.com</span>
+                <span>🔗 <a href="https://www.linkedin.com/in/neeraj-kumar-b76904323" style="color: white; text-decoration: none;">LinkedIn</a></span>
+            </div>
+        </div>
+
+        <!-- SUMMARY -->
+        <div class="section">
+            <h2>📋 Professional Summary</h2>
+            <div class="summary">
+                Motivated BCA student with <span class="highlight">hands-on Java internship experience</span> building Student Management System. 
+                Strong foundation in <strong>Java, Python, web development</strong> and data analysis. 
+                Quick learner passionate about solving real-world problems through technology.
+            </div>
+        </div>
+
+        <!-- EXPERIENCE -->
+        <div class="section">
+            <h2>💼 Experience</h2>
+            <div class="experience-item">
+                <div class="job-title">Java Development Intern</div>
+                <div class="company">Shri Balaji Infotech, Lucknow</div>
+                <div class="date">June 2025 – July 2025</div>
+                <ul>
+                    <li>✅ Completed <strong>4-week intensive Java training</strong></li>
+                    <li>🔨 <strong>Developed Student Management System</strong> with CRUD operations</li>
+                    <li>🎯 Mastered <strong>OOP concepts, collections</strong> & database handling</li>
+                    <li>🚀 Enhanced <strong>problem-solving & programming skills</strong></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- EDUCATION -->
+        <div class="section">
+            <h2>🎓 Education</h2>
+            <table>
+                <tr>
+                    <th>Bachelor of Computer Applications (BCA)</th>
+                    <td>University of Lucknow (GIHSM) | Aug 2024 – Present</td>
+                </tr>
+                <tr>
+                    <th>Class 12</th>
+                    <td>UP Board | 2024</td>
+                </tr>
+                <tr>
+                    <th>Class 10</th>
+                    <td>UP Board | 2022</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="section">
+            <h2>🛠️ Technical Skills</h2>
+            <table class="skills-table">
+                <tr><th>Programming</th><td>Java, Python, <strong>OOP</strong></td></tr>
+                <tr><th>Web Development</th><td>HTML, CSS, JavaScript</td></tr>
+                <tr><th>Data Tools</th><td>Pandas, NumPy, Power BI</td></tr>
+                <tr><th>Concepts</th><td>Data Structures, Database</td></tr>
+                <tr><th>Others</th><td>IoT, Data Analysis</td></tr>
+            </table>
+        </div>
+
+        <!-- PROJECTS -->
+        <div class="section">
+            <h2>📂 Key Projects</h2>
+            <table class="projects-table">
+                <tr>
+                    <th>Project</th>
+                    <th>Technologies</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><strong>Student Management System</strong></td>
+                    <td>Java, OOP, Database</td>
+                    <td>Full CRUD operations & data management</td>
+                </tr>
+                <tr>
+                    <td>Portfolio Website</td>
+                    <td>HTML, CSS, JavaScript</td>
+                    <td>Responsive personal portfolio</td>
+                </tr>
+                <tr>
+                    <td>Tic Tac Toe & Calculator</td>
+                    <td>JavaScript</td>
+                    <td>Interactive web applications</td>
+                </tr>
+                <tr>
+                    <td>Data Analysis Projects</td>
+                    <td>Python, Pandas, NumPy</td>
+                    <td>Data cleaning & visualization</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- CERTIFICATIONS -->
+        <div class="section">
+            <h2>🏆 Certifications & Training</h2>
+            <table>
+                <tr><th>Python for Data Science</th><td>IBM (2025)</td></tr>
+                <tr><th>AI Chatbot Development</th><td>DigiCoders (2025-2026)</td></tr>
+                <tr><th>Power BI Data Analysis</th><td>DigiCoders (2026)</td></tr>
+                <tr><th>IoT Web Development</th><td>Inspizone (2026)</td></tr>
+            </table>
+        </div>
+
+        <!-- LANGUAGES -->
+        <div class="section">
+            <h2>🌐 Languages</h2>
+            <table>
+                <tr><th>Hindi</th><td>Native</td></tr>
+                <tr><th>English</th><td>Intermediate</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        // Print functionality
+        window.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.key === 'p') {
+                e.preventDefault();
+                window.print();
+            }
+        });
+    </script>
+</body>
+</html>
